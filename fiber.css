@@ -2,6 +2,7 @@
     padding:0;
     margin:0;
     box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
 }
 body{
     padding:4% 10% 0 10%;
@@ -13,16 +14,41 @@ body{
 .column{
     flex-direction: column;
 }
-.pink{
-
-}
 header{
-    border-style: solid;
-   
+    align-items: center;
     justify-content: space-between;
 }
+a{
+    text-decoration: none;
+    color:black;
+}
+ul{
+  list-style: none;
+}
+.topleft a{
+    font-weight: 800;
+    font-size: 19px;
+}
+header nav li{
+    margin-right:15px;
+    font-weight: 500;
+}
+.topright a{
+    font-size: 14px;
+    font-weight: 700;
+    margin-right: 17px;
+}
+button{
+    color:white;
+    border:none;
+    background:rgb(51, 51, 185);
+    padding:12px 17px;
+    font-weight: 500;
+    font-size: 14px;
+    border-radius: 4px;
+}
 img{
-    width:5%;
+    width:12%;
 }
 .pinkmid{
     border-style: solid;
@@ -32,6 +58,49 @@ img{
 }
 .pinkmidleft{
     border: 2px red solid;
+    width:45%;
+}
+.stars img{
+    margin-right: 7px;
+}
+.ratingsreviews{
+    font-size: 14px;
+}
+.pinkh1{
+    border-style: solid;
+    margin-top: 2%;
+    margin-bottom:3.5% ;
+}
+.pinkh1 h1{
+    font-size: 45px;
+}
+.pinkh1 p{
+    font-size: 15px;
+    
+}
+.freetrails a{
+    font-size: 14px;
+    color:rgb(51, 51, 185);
+    font-weight: 700;
+    text-decoration: underline;
+    text-decoration-thickness: 1.5px;
+    margin-left: 2.8%;
+}
+.lefttick img{
+    width:9%;
+    margin-right: 5px;
+}
+.lefttick figcaption{
+    font-size: 14px;
+}
+.pinkmidright{
+    border:2px yellow solid;
+    width:50%;
+    justify-content: center;
+    align-items: start;
+}
+.pinkmidright img{
+    width:70%;
 }
 .blue{
     border: 2px red solid;
