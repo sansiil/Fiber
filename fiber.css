@@ -1,3 +1,42 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
 body{
-    background-color: black;
+    padding:4% 10% 0 10%;
+    height:100vh;
+}
+.df{
+    display:flex;
+}
+.column{
+    flex-direction: column;
+}
+.pink{
+
+}
+header{
+    border-style: solid;
+   
+    justify-content: space-between;
+}
+img{
+    width:5%;
+}
+.pinkmid{
+    border-style: solid;
+}
+.tick{
+    border-style: solid;
+}
+.pinkmidleft{
+    border: 2px red solid;
+}
+.blue{
+    border: 2px red solid;
+    justify-content: space-between;
+}
+.blueright{
+    border-style: solid;
 }
