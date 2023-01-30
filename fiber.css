@@ -10,6 +10,9 @@ body{
 .df{
     display:flex;
 }
+#hidden{
+    display:none;
+}
 .column{
     flex-direction: column;
 }
@@ -206,4 +209,115 @@ footer h3{
 }
 footer a{
     margin-bottom: 8px;
+}
+@media (max-width:500px){
+    .topright,.topmid,.ratings{
+        display:none;
+    }
+    #hidden{
+        display:block;
+    }
+    .pinkmid{
+        flex-direction: column-reverse;
+    }
+    .pinkmidright{
+        width:100%;
+    }
+    .pinkmidright img{
+        margin:0;
+        width: 100%;
+    }
+    .pinkmidleft{
+        width:100%;
+    }
+    .freetrails{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .freetrails button{
+        width:100%;
+        padding:17px;
+        font-size: 17px;
+        margin:9px 0;
+    }
+    .freetrails a{
+        font-size:17px;
+        margin-bottom: 11px;
+    }
+    .tick{
+        flex-direction: column;
+    }
+    .lefttick{
+        align-items: center;
+        margin-bottom: 10px;
+    }
+    .whiteabout h1{
+        width:90%;
+        margin:7% 0 10% 0;
+    }
+    .features{
+        flex-direction: column;
+    }
+    .features b{
+        margin:9px 0 12px 0;
+    }
+    .features p{
+        width:100%;
+        line-height:1.4rem;
+        margin-bottom: 7%;
+    }
+    .blue{
+        flex-direction: column;
+        padding:10% 10% 0 10%;
+        border-radius: 9px;
+    }
+    .blueleft{
+        width:100%;
+    }
+    .blue h1{
+        width:100%;
+        margin:0;
+    }
+    .blue p{
+        width:90%;
+        margin:13px 0;
+    }
+    .blue button{
+        width:100%;
+        margin-bottom: 20%;
+    }
+    .blueright{
+        width:100%;
+        display: flex;
+        justify-content: end;
+        height:300px;
+    }
+    .reviews{
+        flex-direction: column;
+    }
+    .reviewsinfo{
+        width:100%;
+        padding:20px;
+    }
+    footer{
+        flex-direction: column;
+        padding-top: 13%;
+        padding-bottom: 4%;
+    }
+    .Fiber {
+        width:100%;
+    }
+    .Fiber p{
+        width:90%;
+    }
+    .down{
+        margin-bottom:17px;
+    }
+    .white{
+        padding-bottom: 30px;
+    }
+
+    
+    
 }
