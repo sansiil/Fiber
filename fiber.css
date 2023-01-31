@@ -61,6 +61,7 @@ button{
 }
 .stars img{
     margin-right: 7px;
+    max-width:17px;
 }
 .ratingsreviews{
     font-size: 14px;
@@ -214,8 +215,23 @@ footer a{
     .topright,.topmid,.ratings{
         display:none;
     }
+    
+    .topmid{
+        position:absolute;
+        flex-direction: column;
+        top:7%;
+        left:0;
+        right:0;
+        border:0.2px rgb(187, 183, 183) solid;
+        border-radius: 10px;
+        padding:4% 0 4% 37%;
+        font-size: 20px;
+        font-weight:700;
+        background:rgb(247, 240, 242);
+
+    }
     #hidden{
-        display:block;
+        display:block; 
     }
     .pinkmid{
         flex-direction: column-reverse;
