@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="fiber.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <title>Sign Up</title>
+</head>
+<body class=" signuppage df">
+    <main class="signupform">
+        <h3>Fiber</h3>
+        <h1>Create your Fiber account</h1>
+        <form clss="df column" action="">
+            <div class="name df column gap">
+                <div><label for="">Your Name</label></div>
+                <input required type="text" placeholder="John Doe">
+            </div>
+            <div class="email df column gap">
+                <div><label for="">E-mail</label></div>
+                <input required type="email" placeholder="john@example.com">
+            </div>
+            <div class="password df column gap">
+                <div><label for="">Password</label></div>
+                <input id="pass" required type="password" placeholder="At least 8 characters">
+                <img onclick="passw()"id="hide"src="Assets/hide password.svg" alt="" srcset="">
+            </div>
+            <div class="terms gap df">
+                <div><input type="checkbox" name="" id="" required></div>
+                <div><label for="">By creating an account on Fiber, you agree to the <a href="#terms">Terms & Conditions</a>.</label></div>
+            </div>
+            <div class="create gap df column">
+                <button>Create Fiber Account</button>
+                <p>Already have an account <a href="#signin">Sign in</a></p>
+            </div>
+        </form>
+    </main>
+    <section class="bluesign df coumn"></section>
+
+    <script src="fiber.js"></script>
+    
+</body>
+</html>
