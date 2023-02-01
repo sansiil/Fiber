@@ -48,6 +48,7 @@ header nav li{
     margin-right: 17px;
 }
 button{
+    cursor:pointer;
     color:white;
     border:none;
     background:rgb(51, 51, 185);
@@ -211,7 +212,7 @@ footer h3{
 footer a{
     margin-bottom: 8px;
 }
-@media (max-width:500px){
+@media (max-width:700px){
     .topright,.topmid,.ratings{
         display:none;
     }
@@ -332,8 +333,83 @@ footer a{
     }
     .white{
         padding-bottom: 30px;
-    }
+    }   
+}
+/* sign up page */
+.signupform{
+    padding:3% 0 0 5%;
+    width:40%;
 
-    
-    
+    border-style: solid;
+}
+.signupform h1{
+    margin:2% 0 4% 0;
+}
+.gap{
+    margin-bottom: 4%;
+}
+.signupform label{
+    font-weight: 700;
+    font-size:15px;
+    margin-bottom: 30px;
+}
+.signupform form{
+    width:77%;
+}
+.terms a{
+    text-decoration: underline;
+    color:rgb(51, 51, 185);
+    font-weight: 700;
+}
+.signupform button{
+    width:100%;
+    font-size:13px;
+    padding:14px;
+    margin-bottom: 3%;
+    border-radius: 3px;
+}
+.signupform input {
+    margin-top:7px;
+    padding:12px;
+    border-radius: 4px;
+    border:1.4px solid rgba(128, 128, 128,0.3);
+}
+.terms label{
+    font-weight: 600;
+}
+
+.terms input{
+    margin:0;
+    margin-right: 4px;   
+}
+.create p{
+    font-weight: 500;
+    font-size: 15px;
+}
+.create a{
+    color:rgb(51, 51, 185);
+}
+.create{
+    align-items: center;
+    justify-content: space-between;
+}
+.bluesign{
+    border-style: solid;
+}
+::placeholder{
+    font-weight: 400;
+    font-size: 14px;
+}
+.password{
+    position: relative;
+}
+.password img{
+    position:absolute;
+    width:20px;
+    right:7px;
+    bottom:9px;
+    cursor: pointer;
+}
+img:active{
+    opacity: 0.2;
 }
