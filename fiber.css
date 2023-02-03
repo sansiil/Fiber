@@ -412,6 +412,13 @@ footer a{
   background:rgba(51, 51, 185,1);
   padding:5.7% 5%;
   width:50%;
+  
+}
+.big{
+    border-style: solid;
+    justify-content: center;
+    margin-top: 2%;
+    gap:10px;
 }
 .blueblue{
     color:white;
@@ -433,7 +440,20 @@ footer a{
 .blueblue img{
     width:100%;
     height:100%;   
+    position:relative;
+}
+#blue1{
+    z-index:1;
+}
+#blue2,#blue3,#blue4{
+    display:none;
 }
 .blueblue figure{
     height:62%;
+}
+.round{
+    width:10px;
+    background:grey;
+    border-radius:5px;
+    height:10px;
 }
