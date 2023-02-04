@@ -415,7 +415,6 @@ footer a{
   
 }
 .big{
-    border-style: solid;
     justify-content: center;
     margin-top: 2%;
     gap:10px;
@@ -452,8 +451,32 @@ footer a{
     height:62%;
 }
 .round{
-    width:10px;
-    background:grey;
-    border-radius:5px;
-    height:10px;
+    width:14px;
+    background:rgba(128, 128, 128,0.37);
+    border-radius:8.5px;
+    height:12px;
+}
+@media  (max-width:500px) {
+    .bluesign{
+        display:none;
+    }
+    .signuppage{
+        padding:5% 10% 0 10%;
+    }
+    .signupform{
+        width:100%;
+        padding:0;
+    }
+    .signupform h1{
+        margin: 8% 0 5.9% 0;
+    }
+    .signupform form{
+       width:100%;
+    }
+    .terms{
+        gap:9px;
+    }  
+    .create{
+        margin:10% 0 0 0;
+    }
 }
