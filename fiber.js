@@ -16,3 +16,13 @@ function passw(){
         pass.type='password';
     };
 };
+function hovershow(){
+    const hoverr=document.getElementById('hoverr');
+    hoverr.style.display='block';
+ 
+};
+function hoverhide(){
+    const hoverr=document.getElementById('hoverr');
+    hoverr.style.display='none';
+};
+
