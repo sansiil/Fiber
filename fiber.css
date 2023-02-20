@@ -438,19 +438,28 @@ footer a{
 }
 .blueblue img{
     width:100%;
-    height:100%;   
-    
-    
+    height:100%;  
+}
+.blueblue figure{
+    position:relative;
+    border-style: solid;
+    height:100%;
 }
 #blue1{
-    position: relative;
+    display: block;
+
 }
 #blue2,#blue3,#blue4{
     position:absolute;
-    z-index:-1;
+    top:0;
+    left:0;
+    display:none;
 }
 #blue2,#blue3,#blue4{
    
+}
+#round1{
+    background: rgba(255, 255, 255,0.8);
 }
 .blueblue figure{
     height:62%;
